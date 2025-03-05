@@ -32,6 +32,11 @@ int Grades::getHist()
 }
 
 
+char* Grades::getNume()
+{
+	return this->nume;
+}
+
 float Grades::getAvg()
 {
 	return (float)(this->math + this->eng + this->hist) / 3;
